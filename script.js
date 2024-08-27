@@ -44,8 +44,8 @@ const perguntas = [
         enunciado: 'No âmbito tecnológico, você prefere:',
         alternativas: [
         {
-             texto: 'VOCê PREFERE ME AMAR PRA SEMPR ;',
-             afirmacao: 'MAS NUNCA MAIS BEIJAR OUTRA PESSOA QUE NÃO SEJA EU;'
+             texto: 'VOCê PREFERE ME AMAR PRA SEMPRE, MAS NUNCA MAIS BEIJAR OUTRA PESSOA QUE NÃO SEJA EU;',
+             afirmacao: 'PARABÉNS! VOCê É FIEL;'
         },
 
         {
