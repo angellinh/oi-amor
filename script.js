@@ -10,14 +10,14 @@ const perguntas = [
         enunciado: 'No âmbito social, você prefere:',
         alternativas: [
         {
-             texto: ' VOCÊ PREFERE AJUDAR UMA CRIANÇA QUE ESTÁ SOFRENDO BULLYING;',
-             afirmacao: 'MAS PERDE SUA ENTREVISTA DE EMPREGO;',
+             texto: ' VOCÊ PREFERE AJUDAR SUA NAMORADA COMPRANDO DOCES MENSALMENTE;',
+             afirmacao: 'MAS VOCê VAI FICAR SEM UM POUCO DE DINHEIRO;',
 
         },
 
         {
-            texto: 'VOCÊ PREFERE IR NA ENTREVISTA DE EMPREGO;',
-            afirmacao: 'VOCÊ NÃO AJUDA A CRIANÇA QUE ESTÁ SOFRENDO BULLYING;',
+            texto: 'VOCÊ PREFERE TER DINHEIRO;',
+            afirmacao: 'VOCÊ VAI VOLTAR COM A SUA EX;',
 
        }
     ]
@@ -27,14 +27,14 @@ const perguntas = [
         enunciado: 'No âmbito ambiental, você prefere:',
         alternativas: [
         {
-             texto: 'REVERTER A SITUAÇÃO CRÍTICA AMBIENTAL DO MUNDO;',
+             texto: 'VOCê PREFERE ME LEVAR PRA JANTAR ALGUM DIA;',
              afirmacao: ' VOCÊ PERDE SUA CAPACIDADE DE RACIOCINIO;',
 
         },
 
         {
             texto: 'NÃO PERDER SUA CAPACIDADE LÓGICA;',
-            afirmacao: 'A CRISE AMBIENTAL AUMENTA NOS PRÓXIMOS 5 ANOS;',
+            afirmacao: 'MAS VOCÊ VAI TER SUA NAMORADA MUITO FELIZ;',
 
        }
     ]
@@ -44,13 +44,13 @@ const perguntas = [
         enunciado: 'No âmbito tecnológico, você prefere:',
         alternativas: [
         {
-             texto: 'VOCÊ PREFERE TER INTERNET PARA SEMPRE .',
-             afirmacao: 'E NÃO PODE COMUNICAR-SE COM SEUS PAIS.'
+             texto: 'VOCê PREFERE ME AMAR PRA SEMPR ;',
+             afirmacao: 'MAS NUNCA MAIS BEIJAR OUTRA PESSOA QUE NÃO SEJA EU;'
         },
 
         {
-            texto: 'VOCÊ PREFERE COMUNICAR-SE COM SEUS PAIS. ',
-            afirmacao: 'E NUNCA TER INTERNET. ',
+            texto: 'VOCÊ PREFERE CURTIR SUA VIDA SEM MIM; ',
+            afirmacao: 'VOCê VAI CASAR COM A SUA NAMORADA QUE TE AMA MUITO; ',
 
        }
     ]
@@ -95,7 +95,7 @@ function respostaSelecionada(alternativa) {
 }
 
 function mostraResultado(){
-    caixaPerguntas.textContent = "Resultado final do jogo de escolhas:"
+    caixaPerguntas.textContent = "Resultado final do jogo de escolhas que a angela linda fez pro guigui:"
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
@@ -103,3 +103,4 @@ function mostraResultado(){
 
 
 mostraPerguntas();
+ 
